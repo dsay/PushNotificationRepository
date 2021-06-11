@@ -57,7 +57,7 @@ open class PushNotificationRepository: NSObject {
     }
 }
 
-extension PushNotification: UNUserNotificationCenterDelegate {
+extension PushNotificationRepository: UNUserNotificationCenterDelegate {
 
     public func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 willPresent notification: UNNotification,
